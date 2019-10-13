@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   value_array = name_hash.collect {|key, value| value}
-  i = 0
-  while i < value_array.size do
-    
+  i = value_array[0]
+  value_array.each {|x|}
+  
 end
